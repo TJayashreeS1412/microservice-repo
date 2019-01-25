@@ -1,0 +1,5 @@
+/home/nilanjan/Desktop/gitmusicapp/microservice-integration/microservice/muzixapi/src/main/java/com/stackroute/zuulservice/ZuulServiceApplication.java
+/home/nilanjan/Desktop/gitmusicapp/microservice-integration/microservice/muzixapi/src/main/java/com/stackroute/zuulservice/filter/RouteFilter.java
+/home/nilanjan/Desktop/gitmusicapp/microservice-integration/microservice/muzixapi/src/main/java/com/stackroute/zuulservice/filter/PreFilter.java
+/home/nilanjan/Desktop/gitmusicapp/microservice-integration/microservice/muzixapi/src/main/java/com/stackroute/zuulservice/filter/ErrorFilter.java
+/home/nilanjan/Desktop/gitmusicapp/microservice-integration/microservice/muzixapi/src/main/java/com/stackroute/zuulservice/filter/PostFilter.java
