@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EurekaService/EurekaService.iml" filepath="$PROJECT_DIR$/EurekaService/EurekaService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MuzixMongoDb/LombokDemo.iml" filepath="$PROJECT_DIR$/MuzixMongoDb/LombokDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MuzixApp.iml" filepath="$PROJECT_DIR$/MuzixApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserMicroService/MuzixApplication.iml" filepath="$PROJECT_DIR$/UserMicroService/MuzixApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudConfigServer/cloudConfigServer.iml" filepath="$PROJECT_DIR$/cloudConfigServer/cloudConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muzixapi/zuulservice.iml" filepath="$PROJECT_DIR$/muzixapi/zuulservice.iml" />
+    </modules>
+  </component>
+</project>
