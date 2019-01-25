@@ -19,7 +19,7 @@
       <module name="LombokDemo" target="11" />
       <module name="MuzixApp" target="11" />
       <module name="MuzixApplication" target="11" />
-      <module name="zuulservice" target="11" />
+      <module name="zuulservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
