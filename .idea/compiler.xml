@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="MuzixApp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+=======
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudConfigServer" />
+        <module name="EurekaService" />
+        <module name="LombokDemo" />
+        <module name="MuzixApplication" />
+        <module name="zuulservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudConfigServer" target="1.8" />
+      <module name="EurekaService" target="11" />
+      <module name="LombokDemo" target="11" />
+      <module name="MuzixApp" target="1.8" />
+      <module name="MuzixApplication" target="11" />
+      <module name="zuulservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaService" options="-parameters" />
+      <module name="LombokDemo" options="-parameters" />
+      <module name="MuzixApplication" options="-parameters" />
+      <module name="cloudConfigServer" options="-parameters" />
+      <module name="zuulservice" options="-parameters" />
+    </option>
+  </component>
+>>>>>>> 79d3ad8708285662eb5858182df8124ddcc17069
 </project>
