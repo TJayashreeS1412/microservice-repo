@@ -1,5 +1,5 @@
-com/stackroute/zuulservice/ZuulServiceApplication.class
 com/stackroute/zuulservice/filter/RouteFilter.class
+com/stackroute/zuulservice/ZuulServiceApplication.class
 com/stackroute/zuulservice/filter/ErrorFilter.class
-com/stackroute/zuulservice/filter/PostFilter.class
 com/stackroute/zuulservice/filter/PreFilter.class
+com/stackroute/zuulservice/filter/PostFilter.class

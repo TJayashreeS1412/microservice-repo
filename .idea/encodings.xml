@@ -2,13 +2,10 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-<<<<<<< HEAD
-=======
     <file url="file://$PROJECT_DIR$/EurekaService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MuzixMongoDb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/UserMicroService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudConfigServer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/muzixapi" charset="UTF-8" />
->>>>>>> 79d3ad8708285662eb5858182df8124ddcc17069
   </component>
 </project>
