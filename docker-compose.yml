@@ -1,0 +1,90 @@
+version: '3'
+services:
+ mongo:
+  image: mongo:latest
+  ports:
+    -"27017":"27017"
+  volumes:
+    - ./data/db:/data/db
+  container_name: mongo-docker
+  network_mode: host
+  environment:
+    - MONGO_DATA_DIR=/data/db
+    - MONGO_LOG_DIR=/dev/null
+    - MONGO_ROOT_PASSWORD:root
+
+ config-server:
+  image: config-server-app
+  build: cloudConfigServer/
+  restart: always
+  network_mode: host
+  container_name: config-server-container
+  depends_on:
+    - mongodb
+  ports:
+    -"8086":"8086"	
+  expose:
+    - 8086
+  environment:
+    - NODE_ENV=development
+
+ zuul-server:
+  image: zuul-server-api
+  build: muzixapi/
+  restart: always
+  network_mode: host
+  container_name: zuul-server-container
+  depends_on:
+    - mongodb
+  ports:
+    -"8087":"8087"	
+  expose:
+    - 8087
+  environment:
+    - NODE_ENV=development
+
+ eureka-server:
+  image: eureka-server-app
+  build: EurekaService/
+  restart: always
+  network_mode: host
+  container_name: eureka-server-container
+  depends_on:
+    - mongodb
+  ports:
+    -"8761":"8761"	
+  expose:
+    - 8761
+  environment:
+    - NODE_ENV=development
+
+ tracks-server:
+  image: tracks-server-app
+  build: MuzixMongoDb
+  restart: always
+  network_mode: host
+  container_name: tracks-server-container
+  depends_on:
+    - mongodb
+  ports:
+    -"8081":"8081"	
+  expose:
+    - 8081
+  environment:
+    - NODE_ENV=development      
+ 
+ users-server:
+  image: users-server-app
+  build: UserMicroService/
+  restart: always
+  network_mode: host
+  container_name: users-server-container
+  depends_on:
+    - mongodb
+  ports:
+    -"8089":"8089"	
+  expose:
+    - 8089
+  environment:
+    - NODE_ENV=development
+
